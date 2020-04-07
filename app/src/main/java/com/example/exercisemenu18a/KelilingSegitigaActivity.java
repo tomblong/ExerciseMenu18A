@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class kelilingppanjang extends AppCompatActivity {
+public class KelilingSegitigaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kelilingppanjang);
+        setContentView(R.layout.activity_keliling_segitiga);
     }
 }

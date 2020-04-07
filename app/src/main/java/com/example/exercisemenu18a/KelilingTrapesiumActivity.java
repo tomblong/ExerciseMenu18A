@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class segitiga extends AppCompatActivity {
+public class KelilingTrapesiumActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_segitiga);
+        setContentView(R.layout.activity_keliling_trapesium);
     }
 }

@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                     //jika login sukses
                     Toast.makeText(getApplicationContext(), "LOGIN SUKSES LURRRRRR",
                             Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(MainActivity.this, Activity2.class);
+                    Intent intent = new Intent(MainActivity.this, MenuActivity.class);
                     MainActivity.this.startActivity(intent);
                 }else {
                     //jika login gagal
